@@ -1,3 +1,7 @@
+
+Edited---> for the purpose of github check
+
+
 -- First, we load the raw data from a test dataset
 RAW_DATA = LOAD '/home/michiard/work/input/AIRLINE/2008.csv' USING PigStorage(',') AS 
 	(year: int, month: int, day: int, dow: int, 
